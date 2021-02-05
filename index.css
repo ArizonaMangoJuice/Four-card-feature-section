@@ -30,6 +30,49 @@
     margin: auto;
 }
 
+.outer-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    padding: 25px;
+    border-top: 4px solid;
+    -webkit-box-shadow: 2px 3px 10px 2px rgba(0,0,0,0.28); 
+    box-shadow: 2px 3px 10px 2px rgba(0,0,0,0.28);
+    width: 320px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 13px;
+}
+
+.card-desc{
+    margin-bottom: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.card-img{
+    padding: 12px 10px;
+    
+}
+
 .thin{
     font-weight: 200;
 }
@@ -40,4 +83,20 @@
 
 .grayish-blue{
    color: hsl(229, 6%, 66%);
+}
+
+.red{
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.cyan{
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.orange{
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top-color: hsl(212, 86%, 64%);
 }
